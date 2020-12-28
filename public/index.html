@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <title>XSS POC</title>
+  <script type="text/javascript" src="script.js" charset="utf-8"></script>
+</head>
+<body>
+    <form action="" method="GET">
+        <p>Seek what you want...</p>
+        <input type="text" name="queryParameter">
+        <input type="submit" value="Search">
+    
+    </form>
+  
+  <div id='results'></div>
+</body>
+
+
+
+</html>
